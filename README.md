@@ -192,7 +192,7 @@ El diseño resaltará:
 
 ---
 # Parte 2 – Diseño en Figma
-Enlace al prototipo en Figma:  
+Enlace al prototipo en Figma:  https://www.figma.com/proto/jdKD5PFkc3tb5AgBHmi04J/Prototipo-Lab-1-Progra?node-id=0-1&t=zFDSesabMbURFbTP-1
 ---
 
 # Parte 3 – Desarrollo Web
