@@ -162,7 +162,7 @@ Al analizar las cinco ofertas laborales, se identifican tipos de patrones relaci
 - Importancia de habilidades blandas como comunicación, documentación y trabajo en equipo.
 ---
 ## Perfil Profesional Objetivo 
-Mi perfil profesional objetivo es desempeñarme como Network Engineer especializado en diseño, implementación y optimización de infraestructuras de red empresariales y de telecomunicaciones. 
+Mi perfil profesional objetivo es desempeñarme como Network Engineer especializado en diseño, implementación y optimización de infraestructuras de red empresariales y de telecomunicaciones. Poseo conocimientos en TCP/IP, subnetting, VLAn's, fundamentos de routing, modelo OSI, además de las certificaciones como MTCNA, MTCSE y MTCIPv6. Aspiro a desarrollarme en empresas de telecomunicaciones, infraestructura empresarial o proveedores de servicios donde pueda participar en el diseño y protección de redes críticas. 
 Me interesa trabajar con: 
 - Routting y Switching
 - Protocolos dinámicos (OSPF y BGP)
@@ -170,11 +170,9 @@ Me interesa trabajar con:
 - Seguridad perimetral 
 - VPN y control de acceso
 - Alta disponibilidad y redundancia
-Poseo conocimientos en TCP/IP, subnetting, VLAn's, fundamentos de routing, modelo OSI, además de las certificaciones como MTCNA, MTCSE y MTCIPv6. Aspiro a desarrollarme en empresas de telecomunicaciones, infraestructura empresarial o proveedores de servicios donde pueda participar en el diseño y protección de redes críticas. 
 ---
 # Justificación del enfoque del sitio web
 El sitio web desarrollado está enfocado en proyectar mi perfil como futuro Network Engineer, destacando mi interés y preparación en el área de redes, especialmente en routing, switching y seguridad.
-
 
 El diseño resaltará:
 - Conocimientos técnicos en redes.
