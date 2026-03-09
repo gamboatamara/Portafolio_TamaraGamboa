@@ -1,4 +1,4 @@
-# Trabajo-so-ado
+# Portafolio Tamara Gamboa
 Laboratorio 1, Programación IV
 #Información general
 **Estudiante:** Tamara Gamboa Acuña  
