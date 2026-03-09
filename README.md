@@ -196,8 +196,8 @@ Enlace al prototipo en Figma:
 ---
 
 # Parte 3 – Desarrollo Web
-Repositorio GitHub: 
+Repositorio GitHub: https://github.com/gamboatamara/Portafolio_TamaraGamboa
 
-Sitio publicado en GitHub Pages: 
+Sitio publicado en GitHub Pages:  https://gamboatamara.github.io/Portafolio_TamaraGamboa/
 
 ---
