@@ -1,0 +1,258 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: #0e0a11;
+  color: #f1f5f9;
+  line-height: 1.6;
+  scroll-behavior: smooth;
+}
+
+header {
+  background: #0e0a11;
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  color: #f1f5f9;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #864286;
+}
+
+.hero {
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  background: #140e19;
+  padding: 2rem;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image:
+    linear-gradient(rgba(84, 48, 91, 0.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(59, 130, 246, 0.08) 1px, transparent 1px);
+  background-size: 40px 40px;
+  z-index: 0;
+}
+
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+  flex-wrap: wrap;
+  position: relative;
+  z-index: 2;
+}
+
+.hero-content h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero-content p {
+  margin-bottom: 1.5rem;
+  font-size: 1.2rem;
+}
+
+.image-wrapper {
+  position: relative;
+  width: 260px;
+  height: 260px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-wrapper::before {
+  content: "";
+  position: absolute;
+  width: 270px;
+  height: 270px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #fff0f3, #ffccd5);
+  z-index: 1;
+
+  filter: blur(25px);
+  opacity: 0.8;
+
+  animation: gradientGlow 3s ease-in-out infinite;
+}
+
+.image-wrapper img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  position: relative;
+  z-index: 2;
+}
+
+@keyframes gradientGlow {
+  0% {
+    transform: scale(1);
+    opacity: 0.7;
+  }
+
+  50% {
+    transform: scale(1.1);
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 0.7;
+  }
+}
+
+@keyframes rotateFlow {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.section {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.dark {
+  background: #19121e;
+}
+
+.about-container {
+  max-width: 900px;
+  margin: auto;
+}
+#proyectos {
+  padding: 4rem 2rem;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card {
+  background: #22162a;
+  padding: 2rem;
+  border-radius: 12px;
+  border: 1px solid rgba(148, 31, 113, 0.2);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.card h3 {
+  margin-bottom: 1rem;
+  color: #d396b3;
+}
+
+.card p {
+  font-size: 0.95rem;
+  color: #cbd5e1;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  border-color: #864279;
+  box-shadow: 0 10px 25px rgba(127, 60, 109, 0.2);
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.skill {
+  background: #22162a;
+  padding: 1rem;
+  border-radius: 6px;
+  transition: background 0.3s ease;
+}
+
+.skill:hover {
+  background: #3e2d4c;
+}
+
+footer {
+  background: #1f1725;
+  text-align: center;
+  padding: 1rem;
+}
+
+@media (max-width: 768px) {
+  .hero-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-content h2 {
+    font-size: 2.2rem;
+  }
+
+  .nav-links {
+    flex-direction: column;
+  }
+}
+
+.social-icons {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+}
+
+.social-icons img {
+  width: 40px;
+  height: 40px;
+  transition: all 0.3s ease;
+}
+
+.social-icons img:hover {
+  transform: translateY(-6px) scale(1.1);
+  filter: drop-shadow(0 0 10px #97306f);
+}
