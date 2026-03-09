@@ -191,11 +191,13 @@ El diseño resaltará:
 - Capacidad de comunicar conceptos técnicos complejos de forma clara y estructurada.  
 
 ---
-# Parte 2 – Diseño en Figma
+## Parte 2 – Diseño en Figma
+
 Enlace al prototipo en Figma:  https://www.figma.com/proto/jdKD5PFkc3tb5AgBHmi04J/Prototipo-Lab-1-Progra?node-id=0-1&t=zFDSesabMbURFbTP-1
 ---
 
-# Parte 3 – Desarrollo Web
+## Parte 3 – Desarrollo Web
+
 Repositorio GitHub: https://github.com/gamboatamara/Portafolio_TamaraGamboa
 
 Sitio publicado en GitHub Pages:  https://gamboatamara.github.io/Portafolio_TamaraGamboa/
